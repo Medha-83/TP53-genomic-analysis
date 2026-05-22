@@ -1,0 +1,24 @@
+Prompt : You are a bioinformatics assistant.
+
+Given the following PubMed abstracts about TP53:
+
+[PASTE ABSTRACTS HERE]
+
+Summarize the key findings into three categories:
+
+1. Biological Function — what does TP53 do normally?
+2. Disease Relevance — what happens when it mutates or fails?
+3. Research Applications — how is it being studied or targeted?
+
+Use 3–4 bullet points per category.
+Be specific, not generic.
+
+second prompt : Based on the following PubMed abstracts about TP53, summarize the findings into exactly three categories:
+
+1) Biological Function
+2) Disease Relevance
+3) Research Applications
+
+Be concise and specific.
+Use bullet points under each category.
+
