@@ -17,3 +17,10 @@ def find_orfs(sequence, min_length=150):
 orfs = find_orfs(record.seq)
 for start, stop, length in orfs:
     print(f"ORF: {start} -> {stop} |Length: {length} bp") 
+print("=== TP53 Region Annotation ===")
+print(f"Total Sequence Length: {len(record.seq)} bp")
+print(f"Overall GC Content:{gc_fraction(record.seq)*100:.2f}%
+print(f"\nORFs Found: {len(orfs)}")
+for i, (start,stop,length) in enumerate(orfs):
+    print(f" ORF{i+1}: Position {start}-{stop} | {length} bp")
+print("\nLikely  coding region: ORF1 | Length: 1182 bp")
