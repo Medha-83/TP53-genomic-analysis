@@ -6,12 +6,12 @@ To build a reproducible, end-to-end pipeline that takes a raw gene sequence as i
 Python 3.14 | BioPython | Matplotlib | NCBI Entrez API | Claude AI
 # How to run
 a) Install dependencies: "pip install biopython matplotlib"
-b) Download TP53 FASTA from NCBI (NM_000537.3)
+b) Download TP53 FASTA from NCBI (NM_000546.6)
 c) Run: python "pipeline.py --fasta tp53.fasta --gene TP53"
 d) Output saved to: "tp53_reprot.txt" + "gc_plot.png"
 # Results
-Sequence length: 2591bp | GC Content: 47.32%
-ORFs found: 4 | Longest ORF: 1182bp (position 203-1385)
+Sequence length: 2512bp | GC Content: 53.38%
+ORFs found: 19 | Longest ORF: 1182bp (position 142-1324)
 Key finding: Peak GC content overlaps directly with the dominant coding ORF
 # Acknowledements
 Built during the "Bversity Computational Biology Workshop", May 2026.
