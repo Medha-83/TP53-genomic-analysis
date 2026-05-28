@@ -6,10 +6,10 @@ Given the following PubMed abstracts about TP53:
 
 Summarize the key findings into three categories:
 
-1. Biological Function — what does TP53 do normally?
-2. Disease Relevance — what happens when it mutates or fails?
-3. Research Applications — how is it being studied or targeted?
-
+1. Biological Function — what are the normal cellular functions of TP53?
+2. Disease Relevance — what are the consequences of TP53 mutation?
+3. Research Applications — what are current approaches to study TP53?
+4. Clinical Relevance
 Use 3–4 bullet points per category.
 Be specific, not generic.
 
@@ -18,7 +18,7 @@ second prompt : Based on the following PubMed abstracts about TP53, summarize th
 1) Biological Function
 2) Disease Relevance
 3) Research Applications
-
+4) Clinical Relevance
 Be concise and specific.
 Use bullet points under each category.
 
