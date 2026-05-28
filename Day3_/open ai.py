@@ -28,6 +28,7 @@ Summarize into:
 1. Biological Function
 2. Disease Relevance
 3. Research Applications
+4. Clinical Relevance
 {abstracts}
 """
 
